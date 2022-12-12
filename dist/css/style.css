@@ -8,3 +8,43 @@
   background-position: center;
   background-size: cover;
 }
+
+.navbar {
+  transition: 0.5s;
+  z-index: 122;
+}
+
+.navbar i {
+  color: white;
+}
+
+.hovered-icon:hover {
+  color: #0d6efd;
+  cursor: pointer;
+}
+
+.navbar.scrolling-active {
+  background-color: darkblue;
+  padding: 10px 0;
+}
+
+section#projects img {
+  height: 250px;
+  width: 100%;
+}
+
+section#services img {
+  height: 400px;
+}
+
+section#services h5 {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  margin: 15px 0;
+}
+
+section#services i {
+  color: green;
+  font-size: 1.6rem;
+}
